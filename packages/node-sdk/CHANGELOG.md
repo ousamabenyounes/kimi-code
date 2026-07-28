@@ -1,5 +1,11 @@
 # @moonshot-ai/kimi-code-sdk
 
+## 0.14.1
+
+### Patch Changes
+
+- [#1857](https://github.com/MoonshotAI/kimi-code/pull/1857) [`cdbd33c`](https://github.com/MoonshotAI/kimi-code/commit/cdbd33c13c7f5cd4c49ec112ee4313b3938a7752) Thanks [@vinlee19](https://github.com/vinlee19)! - Fail fast on quota/balance-exhausted HTTP 429 errors (e.g. Moonshot `exceeded_current_quota_error`, OpenAI `insufficient_quota`) instead of silently retrying for ~3 minutes. Transient rate-limit 429s keep the existing retry, backoff, and Retry-After behavior.
+
 ## 0.14.0
 
 ### Minor Changes

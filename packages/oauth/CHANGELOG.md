@@ -1,5 +1,11 @@
 # @moonshot-ai/kimi-code-oauth
 
+## 0.2.3
+
+### Patch Changes
+
+- [#2300](https://github.com/MoonshotAI/kimi-code/pull/2300) [`b0f43ae`](https://github.com/MoonshotAI/kimi-code/commit/b0f43aea280eedce3bbe57e6e31bc118e5938e0c) Thanks [@liruifengv](https://github.com/liruifengv)! - Derive the /usage plan usage window labels and reset hints from structured usage data instead of preformatted text.
+
 ## 0.2.2
 
 ### Patch Changes

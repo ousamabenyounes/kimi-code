@@ -1,5 +1,14 @@
 # @moonshot-ai/agent-core
 
+## 0.15.7
+
+### Patch Changes
+
+- [#2313](https://github.com/MoonshotAI/kimi-code/pull/2313) [`de0ba9d`](https://github.com/MoonshotAI/kimi-code/commit/de0ba9d0654273ff6b028a7a561983ebee4e723e) Thanks [@starquakee](https://github.com/starquakee)! - Count validation-rejected tool calls toward the repeat breaker so reminders fire at 3/5/8 and the turn force-stops at 12.
+
+- Updated dependencies [[`b0f43ae`](https://github.com/MoonshotAI/kimi-code/commit/b0f43aea280eedce3bbe57e6e31bc118e5938e0c)]:
+  - @moonshot-ai/kimi-code-oauth@0.2.3
+
 ## 0.15.6
 
 ### Patch Changes

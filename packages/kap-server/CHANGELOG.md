@@ -1,5 +1,15 @@
 # @moonshot-ai/kap-server
 
+## 0.1.1
+
+### Patch Changes
+
+- [#2300](https://github.com/MoonshotAI/kimi-code/pull/2300) [`b0f43ae`](https://github.com/MoonshotAI/kimi-code/commit/b0f43aea280eedce3bbe57e6e31bc118e5938e0c) Thanks [@liruifengv](https://github.com/liruifengv)! - Derive the /usage plan usage window labels and reset hints from structured usage data instead of preformatted text.
+
+- Updated dependencies [[`a77ee03`](https://github.com/MoonshotAI/kimi-code/commit/a77ee0382965720f7ede523de1f6788bd4422df8), [`b0f43ae`](https://github.com/MoonshotAI/kimi-code/commit/b0f43aea280eedce3bbe57e6e31bc118e5938e0c), [`d88b377`](https://github.com/MoonshotAI/kimi-code/commit/d88b3775c9816c15ae82dea8b34794b1e729b5d0)]:
+  - @moonshot-ai/agent-core-v2@0.2.1
+  - @moonshot-ai/kimi-code-oauth@0.2.3
+
 ## 0.1.0
 
 ### Minor Changes

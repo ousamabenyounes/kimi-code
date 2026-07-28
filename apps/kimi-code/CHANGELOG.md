@@ -1,5 +1,25 @@
 # @moonshot-ai/kimi-code
 
+## 0.30.0
+
+### Minor Changes
+
+- [#2255](https://github.com/MoonshotAI/kimi-code/pull/2255) [`67dd031`](https://github.com/MoonshotAI/kimi-code/commit/67dd03149f36be91a0c081e70d8a2d721b0f1c64) Thanks [@he-yufeng](https://github.com/he-yufeng)! - Customizable footer status line: compose built-in slots via `[status_line] items` in `tui.toml`, or render the first stdout line of a user script via `[status_line] command`.
+
+- [#2312](https://github.com/MoonshotAI/kimi-code/pull/2312) [`d03a488`](https://github.com/MoonshotAI/kimi-code/commit/d03a4886fdf7c35014c10079a3d417aeb0447d9a) Thanks [@sailist](https://github.com/sailist)! - Remove the 50 MB size limit on file uploads to the built-in server, so large attachments (for example in the web UI) no longer fail with an upload-too-large error. Uploads now stream to disk instead of being buffered in memory.
+
+### Patch Changes
+
+- [#2016](https://github.com/MoonshotAI/kimi-code/pull/2016) [`e556088`](https://github.com/MoonshotAI/kimi-code/commit/e55608845884721fd4cdc5700e36d839348ba2ce) Thanks [@sailist](https://github.com/sailist)! - Add an internal bash parsing capability that turns shell command strings into syntax trees, in preparation for per-command permission analysis. No user-facing behavior change yet.
+
+- [#2147](https://github.com/MoonshotAI/kimi-code/pull/2147) [`29783e4`](https://github.com/MoonshotAI/kimi-code/commit/29783e471afcf7975852e496907646458264d2e6) Thanks [@wbxl2000](https://github.com/wbxl2000)! - Show a quota consumption note after installing official plugins that bill against plan quota (such as Kimi Datasource).
+
+- [#2147](https://github.com/MoonshotAI/kimi-code/pull/2147) [`29783e4`](https://github.com/MoonshotAI/kimi-code/commit/29783e471afcf7975852e496907646458264d2e6) Thanks [@wbxl2000](https://github.com/wbxl2000)! - Show an update notice when a turn that used an outdated plugin ends and the Official Marketplace has a newer version; each new version is announced once. Run /plugins to install the latest version.
+
+- [#1857](https://github.com/MoonshotAI/kimi-code/pull/1857) [`cdbd33c`](https://github.com/MoonshotAI/kimi-code/commit/cdbd33c13c7f5cd4c49ec112ee4313b3938a7752) Thanks [@vinlee19](https://github.com/vinlee19)! - Fail fast on quota/balance-exhausted HTTP 429 errors (e.g. Moonshot `exceeded_current_quota_error`, OpenAI `insufficient_quota`) instead of silently retrying for ~3 minutes. Transient rate-limit 429s keep the existing retry, backoff, and Retry-After behavior.
+
+- [#2294](https://github.com/MoonshotAI/kimi-code/pull/2294) [`425cfdf`](https://github.com/MoonshotAI/kimi-code/commit/425cfdf53f0fd3b01527f5fba87acff68f49f368) Thanks [@wbxl2000](https://github.com/wbxl2000)! - web: Fix garbled line numbers in code blocks.
+
 ## 0.29.2
 
 ### Patch Changes

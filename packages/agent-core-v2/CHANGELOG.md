@@ -1,5 +1,18 @@
 # @moonshot-ai/agent-core-v2
 
+## 0.2.1
+
+### Patch Changes
+
+- [#2144](https://github.com/MoonshotAI/kimi-code/pull/2144) [`a77ee03`](https://github.com/MoonshotAI/kimi-code/commit/a77ee0382965720f7ede523de1f6788bd4422df8) Thanks [@sailist](https://github.com/sailist)! - Let embedding hosts customize the agent's product name and reply-style guidance in the system prompt when starting the server.
+
+- [#2300](https://github.com/MoonshotAI/kimi-code/pull/2300) [`b0f43ae`](https://github.com/MoonshotAI/kimi-code/commit/b0f43aea280eedce3bbe57e6e31bc118e5938e0c) Thanks [@liruifengv](https://github.com/liruifengv)! - Derive the /usage plan usage window labels and reset hints from structured usage data instead of preformatted text.
+
+- [#2317](https://github.com/MoonshotAI/kimi-code/pull/2317) [`d88b377`](https://github.com/MoonshotAI/kimi-code/commit/d88b3775c9816c15ae82dea8b34794b1e729b5d0) Thanks [@7Sageer](https://github.com/7Sageer)! - Count validation-rejected tool calls toward the repeat breaker so reminders fire at 3/5/8 and the turn force-stops at 12.
+
+- Updated dependencies [[`b0f43ae`](https://github.com/MoonshotAI/kimi-code/commit/b0f43aea280eedce3bbe57e6e31bc118e5938e0c)]:
+  - @moonshot-ai/kimi-code-oauth@0.2.3
+
 ## 0.2.0
 
 ### Minor Changes
